@@ -1,4 +1,4 @@
-/* Challenge - count total occurences of some 'x' in a string
+/* Challenge 3 - count total occurences of some 'x' in a string
 
 Process
 ----------- */
