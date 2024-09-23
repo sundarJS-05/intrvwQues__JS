@@ -1,4 +1,4 @@
-/* Challenge 4 - function telling type of triangle (euqil, isos, scalene)
+/* Challenge 4 - function telling triangle type - euqil / isos / scln
 
 Process
 ----------- */
