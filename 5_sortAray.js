@@ -1,4 +1,4 @@
-/* Challenge 4 - sort nos in array in Asc. order
+/* Challenge 5 - sort nos in array in Asc. order
 
 Process
 ----------- */
