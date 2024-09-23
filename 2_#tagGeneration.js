@@ -3,6 +3,12 @@
 Process
 ----------- */
 
+/* using slice & substring fns - altenate way
+// let str = 'dsfdwstdftr'
+// let str5 = str.substring(3,str.length)
+// str5 = str.slice(1,str.length)
+// console.log('str5 is',str5) */
+
 let generateHash = (str)=>{
 
     if(str.length > 280 || str.trim().length == 0 ){
