@@ -9,36 +9,49 @@ let snakeCase = (str)=>{
 
     splitArr = str.split(" ")
     let snakeCase = splitArr.join("-")
-
+    console.log("snakecase ->")
     return snakeCase
-
 
 }
 
+
+// let camelCase = (str)=>{
+//     splitArr = str.split(" ")
+
+//     let indvl
+//     for (let j = 1; j < splitArr.length; j++) {
+
+//         indvl = splitArr[j][0].toUpperCase()
+//         console.log(indvl)
+ 
+//     }
+
+//     return indvl
+
+//     let camelCase = splitArr.join("")
+
+// }
 
 let camelCase = (str)=>{
 
     splitArr = str.split(" ")
 
-    let indvl
+    let cmlCase = splitArr.map(  (curElm, index)=>{
 
-    for (let j = 1; j < splitArr.length; j++) {
+        if(index==0) return curElm.toLowerCase()
 
-        indvl = splitArr[j][0].toUpperCase()
-        console.log(indvl)
- 
-    }
+        else{
+            return (curElm[0].toUpperCase() + curElm.slice(1,curElm.length).toLowerCase( ))
 
-    return indvl
+        }
 
+    })
 
+    console.log("camelcase ->")
 
-    let camelCase = splitArr.join("")
-
-    // return camelCase
+    return cmlCase.join("")
 
 }
-
 
 
 
