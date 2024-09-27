@@ -1,4 +1,4 @@
-/* Challenge 22 - reverse median of an array of nos.
+/* Challenge 22 - median of an array of nos.
 
 Process
 ----------- */

@@ -1,4 +1,4 @@
-/* Challenge 21 - reverse mean of an array of nos.
+/* Challenge 21 - mean of an array of nos.
 
 Process
 ----------- */
